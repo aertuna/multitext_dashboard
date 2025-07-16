@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px;
+  }
+  .header {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #1f2a48;
+    margin-bottom: 20px;
+  }
+  .tabs {
+    border-bottom: 2px solid #e1e6f0;
+  }
+  .tab {
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #1f2a48;
+    border-radius: 6px 6px 0 0;
+    margin-right: 5px;
+  }
+  .tab:hover {
+    background-color: #f0f3fa;
+  }
+  .tab-content {
+    background-color: #ffffff;
+    border-radius: 0 6px 6px 6px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    padding: 20px;
+    margin-top: -2px;
+  }
+  .textarea {
+    width: 100%;
+    min-height: 80px;
+    padding: 10px;
+    border: 1px solid #d1d9e6;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+  .btn {
+    background-color: #4e73df;
+    color: #ffffff;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-bottom: 20px;
+  }
+  .btn:hover {
+    background-color: #2e59d9;
+  }
+  .output {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 15px;
+    color: #2c3e50;
+  }
+  .info {
+    font-size: 0.9rem;
+    color: #6c757d;
+    font-style: italic;
+  }
+  .dropdown {
+    width: 250px;
+    margin-bottom: 15px;
+  }
+  .controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  .label {
+    font-size: 1rem;
+    color: #1f2a48;
+  }
+  .topic-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  .topic-block {
+    background-color: #ffffff;
+    border: 1px solid #e1e6f0;
+    border-radius: 6px;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  }
+  .chart {
+    width: 100%;
+    height: 250px;
+  }
+  .pill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 10px 0;
+  }
+  .pill {
+    background-color: #f0f3fa;
+    color: #1f2a48;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+  }
+  .tweet-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  .tweet-list li {
+    font-size: 0.85rem;
+    color: #555;
+    margin-bottom: 5px;
+  }
